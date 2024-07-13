@@ -6,11 +6,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class SignupScreen extends StatefulWidget {
   final VoidCallback show;
-<<<<<<< HEAD
-  const SignupScreen(this.show, {super.key});
-=======
   SignupScreen(this.show, {super.key});
->>>>>>> 5c89b3f33ed9daa5deda29f467953264add0ec84
 
   @override
   State<SignupScreen> createState() => _SignupScreenState();
@@ -39,10 +35,6 @@ class _SignupScreenState extends State<SignupScreen> {
     bio.dispose();
   }
 
-<<<<<<< HEAD
-  @override
-=======
->>>>>>> 5c89b3f33ed9daa5deda29f467953264add0ec84
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
@@ -51,26 +43,19 @@ class _SignupScreenState extends State<SignupScreen> {
         child: Column(
           children: [
             SizedBox(width: 96.w, height: 10.h),
-<<<<<<< HEAD
-            const Center(
-=======
             Center(
->>>>>>> 5c89b3f33ed9daa5deda29f467953264add0ec84
-              // child: Image.asset('images/AKKAD.png'),
-            ),
-            SizedBox(width: 96.w, height: 70.h),           InkWell(
-              onTap: (){},
+                // child: Image.asset('images/AKKAD.png'),
+                ),
+            SizedBox(width: 96.w, height: 70.h),
+            InkWell(
+              onTap: () {},
               child: CircleAvatar(
                 radius: 36.r,
                 backgroundColor: Colors.grey,
                 child: _imageFile == null
                     ? CircleAvatar(
                         radius: 34.r,
-<<<<<<< HEAD
-                       backgroundImage: const AssetImage('images/user.png'),
-=======
-                       backgroundImage: AssetImage('images/user.png'),
->>>>>>> 5c89b3f33ed9daa5deda29f467953264add0ec84
+                        backgroundImage: AssetImage('images/user.png'),
                         backgroundColor: Colors.grey.shade200,
                       )
                     : CircleAvatar(
@@ -78,7 +63,6 @@ class _SignupScreenState extends State<SignupScreen> {
                         backgroundImage: Image.file(
                           _imageFile!,
                           fit: BoxFit.cover,
-                          
                         ).image,
                         backgroundColor: Colors.grey.shade200,
                       ),
@@ -93,8 +77,8 @@ class _SignupScreenState extends State<SignupScreen> {
             SizedBox(height: 15.h),
             Textfild(password, password_F, 'كلمه السر', Icons.lock),
             SizedBox(height: 15.h),
-            Textfild(passwordConfirme, passwordConfirme_F, 'اعد كتابه كلمه السر',
-                Icons.lock),
+            Textfild(passwordConfirme, passwordConfirme_F,
+                'اعد كتابه كلمه السر', Icons.lock),
             SizedBox(height: 15.h),
             Signup(),
             SizedBox(height: 15.h),
@@ -124,7 +108,7 @@ class _SignupScreenState extends State<SignupScreen> {
             child: Text(
               "تسجيل الدخول ",
               style: TextStyle(
-              fontFamily: 'fontspring',
+                  fontFamily: 'fontspring',
                   fontSize: 15.sp,
                   color: Colors.blue,
                   fontWeight: FontWeight.bold),

@@ -3,11 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class LoginScreen extends StatefulWidget {
   final VoidCallback show;
-<<<<<<< HEAD
-  const LoginScreen(this.show, {super.key});
-=======
   LoginScreen(this.show, {Key? key}) : super(key: key);
->>>>>>> 5c89b3f33ed9daa5deda29f467953264add0ec84
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();
@@ -32,12 +28,9 @@ class _LoginScreenState extends State<LoginScreen> {
       resizeToAvoidBottomInset: false,
       backgroundColor: Colors.white,
       body: SafeArea(
-      
         child: Column(
-             
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            
             SizedBox(height: 100.h),
             Textfield(email, email_F, 'بريدك الالكتروني', Icons.email),
             SizedBox(height: 15.h),
@@ -60,7 +53,6 @@ class _LoginScreenState extends State<LoginScreen> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          
           Text(
             "ليس لديك حساب؟",
             style: TextStyle(
@@ -74,7 +66,7 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Text(
               "انشاء حساب",
               style: TextStyle(
-              fontFamily: 'fontspring',
+                fontFamily: 'fontspring',
                 fontSize: 15.sp,
                 color: Colors.blue,
                 fontWeight: FontWeight.bold,
@@ -125,7 +117,7 @@ class _LoginScreenState extends State<LoginScreen> {
         child: Text(
           'نسيت كلمه السر؟',
           style: TextStyle(
-              fontFamily: 'fontspring',
+            fontFamily: 'fontspring',
             fontSize: 13.sp,
             color: Colors.blue,
             fontWeight: FontWeight.w500,
