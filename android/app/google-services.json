@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "902663136576",
+    "project_id": "akaadapp",
+    "storage_bucket": "akaadapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902663136576:android:1995a7cffb846498e8c6a5",
+        "android_client_info": {
+          "package_name": "com.akaad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9FBZwSIo4Ju46UJqrGUnxxbg9dWYuORs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
