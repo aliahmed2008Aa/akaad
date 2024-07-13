@@ -3,7 +3,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class LoginScreen extends StatefulWidget {
   final VoidCallback show;
+<<<<<<< HEAD
   const LoginScreen(this.show, {super.key});
+=======
+  LoginScreen(this.show, {Key? key}) : super(key: key);
+>>>>>>> 5c89b3f33ed9daa5deda29f467953264add0ec84
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();

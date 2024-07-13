@@ -6,7 +6,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class SignupScreen extends StatefulWidget {
   final VoidCallback show;
+<<<<<<< HEAD
   const SignupScreen(this.show, {super.key});
+=======
+  SignupScreen(this.show, {super.key});
+>>>>>>> 5c89b3f33ed9daa5deda29f467953264add0ec84
 
   @override
   State<SignupScreen> createState() => _SignupScreenState();
@@ -35,7 +39,10 @@ class _SignupScreenState extends State<SignupScreen> {
     bio.dispose();
   }
 
+<<<<<<< HEAD
   @override
+=======
+>>>>>>> 5c89b3f33ed9daa5deda29f467953264add0ec84
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
@@ -44,7 +51,11 @@ class _SignupScreenState extends State<SignupScreen> {
         child: Column(
           children: [
             SizedBox(width: 96.w, height: 10.h),
+<<<<<<< HEAD
             const Center(
+=======
+            Center(
+>>>>>>> 5c89b3f33ed9daa5deda29f467953264add0ec84
               // child: Image.asset('images/AKKAD.png'),
             ),
             SizedBox(width: 96.w, height: 70.h),           InkWell(
@@ -55,7 +66,11 @@ class _SignupScreenState extends State<SignupScreen> {
                 child: _imageFile == null
                     ? CircleAvatar(
                         radius: 34.r,
+<<<<<<< HEAD
                        backgroundImage: const AssetImage('images/user.png'),
+=======
+                       backgroundImage: AssetImage('images/user.png'),
+>>>>>>> 5c89b3f33ed9daa5deda29f467953264add0ec84
                         backgroundColor: Colors.grey.shade200,
                       )
                     : CircleAvatar(
