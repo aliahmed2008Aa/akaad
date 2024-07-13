@@ -44,17 +44,18 @@ class _SignupScreenState extends State<SignupScreen> {
           children: [
             SizedBox(width: 96.w, height: 10.h),
             Center(
-              // child: Image.asset('images/AKKAD.png'),
-            ),
-            SizedBox(width: 96.w, height: 70.h),           InkWell(
-              onTap: (){},
+                // child: Image.asset('images/AKKAD.png'),
+                ),
+            SizedBox(width: 96.w, height: 70.h),
+            InkWell(
+              onTap: () {},
               child: CircleAvatar(
                 radius: 36.r,
                 backgroundColor: Colors.grey,
                 child: _imageFile == null
                     ? CircleAvatar(
                         radius: 34.r,
-                       backgroundImage: AssetImage('images/user.png'),
+                        backgroundImage: AssetImage('images/user.png'),
                         backgroundColor: Colors.grey.shade200,
                       )
                     : CircleAvatar(
@@ -62,7 +63,6 @@ class _SignupScreenState extends State<SignupScreen> {
                         backgroundImage: Image.file(
                           _imageFile!,
                           fit: BoxFit.cover,
-                          
                         ).image,
                         backgroundColor: Colors.grey.shade200,
                       ),
@@ -77,8 +77,8 @@ class _SignupScreenState extends State<SignupScreen> {
             SizedBox(height: 15.h),
             Textfild(password, password_F, 'كلمه السر', Icons.lock),
             SizedBox(height: 15.h),
-            Textfild(passwordConfirme, passwordConfirme_F, 'اعد كتابه كلمه السر',
-                Icons.lock),
+            Textfild(passwordConfirme, passwordConfirme_F,
+                'اعد كتابه كلمه السر', Icons.lock),
             SizedBox(height: 15.h),
             Signup(),
             SizedBox(height: 15.h),
@@ -108,7 +108,7 @@ class _SignupScreenState extends State<SignupScreen> {
             child: Text(
               "تسجيل الدخول ",
               style: TextStyle(
-              fontFamily: 'fontspring',
+                  fontFamily: 'fontspring',
                   fontSize: 15.sp,
                   color: Colors.blue,
                   fontWeight: FontWeight.bold),

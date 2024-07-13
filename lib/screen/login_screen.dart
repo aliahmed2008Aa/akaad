@@ -28,12 +28,9 @@ class _LoginScreenState extends State<LoginScreen> {
       resizeToAvoidBottomInset: false,
       backgroundColor: Colors.white,
       body: SafeArea(
-      
         child: Column(
-             
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            
             SizedBox(height: 100.h),
             Textfield(email, email_F, 'بريدك الالكتروني', Icons.email),
             SizedBox(height: 15.h),
@@ -56,7 +53,6 @@ class _LoginScreenState extends State<LoginScreen> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          
           Text(
             "ليس لديك حساب؟",
             style: TextStyle(
@@ -70,7 +66,7 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Text(
               "انشاء حساب",
               style: TextStyle(
-              fontFamily: 'fontspring',
+                fontFamily: 'fontspring',
                 fontSize: 15.sp,
                 color: Colors.blue,
                 fontWeight: FontWeight.bold,
@@ -121,7 +117,7 @@ class _LoginScreenState extends State<LoginScreen> {
         child: Text(
           'نسيت كلمه السر؟',
           style: TextStyle(
-              fontFamily: 'fontspring',
+            fontFamily: 'fontspring',
             fontSize: 13.sp,
             color: Colors.blue,
             fontWeight: FontWeight.w500,
